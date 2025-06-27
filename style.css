@@ -149,6 +149,11 @@
     font-size: 11px;
     padding: 7px;
 }
+@media (max-width:768px) {
+    .button .button2{
+    padding: 10px;
+    } 
+}
 
 /* .....................Left Side */
 .side2{                                               /*  small */
@@ -198,6 +203,12 @@
      display: grid;
      margin-left: 21em;
      margin-top: -5em;
+}
+@media (max-width:350px){
+  .fruit .avacado{
+    margin-left: -20px;
+    width: 140px;
+  }
 }
 
 /* ------------- RESPONSIVE THE SECTION 2 ---------------- */
@@ -443,6 +454,14 @@
     margin-top: 2em;
 }    
 }
+@media (max-width: 750px) {
+  .top p{
+    line-height: 20px;
+  }
+  .card>img{
+    margin-left: 40%;
+  }
+}
 
 /*......................... CONTINUING SECTION 5 */
 .section5{
@@ -548,7 +567,7 @@
     background-color: rgb(228, 243, 243)
 }
 .four{
-    max-width: 1800px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     gap: 2.5em;
@@ -584,7 +603,11 @@
     color: #444;
     padding-bottom: 20px;
 }
-
+@media (max-width:350px) {
+  .four{
+    margin-left: -40px;
+  }
+}
 /* ......................................SECTION7 */
 .section7{
     max-width: 1800px;
@@ -594,9 +617,15 @@
 .section7 img{
 max-width: 100%;
 }
+@media (max-width:450px){
+.section7 img{
+  max-width: 280px;
+  margin-left: -3em;
+}
+}
 
 
-/* SECTION8 */
+/*.............................. SECTION8 */
 .section8 {
     max-width: 1800px;
     margin: 0 auto;
@@ -697,6 +726,10 @@ max-width: 100%;
         font-size: 13px;
         padding: 10px;
     }
+    .section8 img{
+      max-width: 250px;
+      padding: 20px 0px;
+    }
 }
 
 
@@ -714,6 +747,9 @@ max-width: 100%;
   .media-wrapper {
     max-width: 100%;
     padding: 0 10px;
+  }
+  .shadow{
+    width: 100% !important;
   }
 }
 
@@ -767,6 +803,13 @@ max-width: 100%;
 }
 .center:hover{
     color: blue;
+}
+
+/* ........................SECTION11 */
+@media (max-width:400px){
+.else .card{
+margin-left: -48px;
+}
 }
 
 
@@ -960,9 +1003,14 @@ color: yellow;
 
 /* *************************SECTION 15 */
 .section15{
-    max-width: 1800px;
+  max-width: 1800px;
   margin: 0 auto;
   padding: 50px 60px;
+}
+@media (max-width:400px) {
+  .section15{
+    padding: 20px 20px;
+  }
 }
 
 /* *******************SECTION 16 */
@@ -1061,3 +1109,4 @@ color: yellow;
     border-left: 2px solid blue;
   }
 }
+
